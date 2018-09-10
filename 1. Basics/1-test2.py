@@ -7,4 +7,3 @@ def collatz(number):
 
 number = int(input('Enter number:'))
 
-        
