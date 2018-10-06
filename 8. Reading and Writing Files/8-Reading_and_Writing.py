@@ -37,7 +37,7 @@ os.path.basename('C:\\Users')
 # To have them both, split!
 os.path.split(path)
 
-# NOTE: This only returns two values: base and dir names
+# NOTE: This only returns two values: base and directory names
 # For each folder use split() and os.path.sep as separator
 pathname.split(os.path.sep)
 
