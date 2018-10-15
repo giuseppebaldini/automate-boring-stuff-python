@@ -39,6 +39,3 @@ send2trash.send2trash('useless_file.txt')
 # os.walk() is useful to walk through a directory tree
 for folderName, subfolders, filenames in os.walk('C:\\example'):
     print('The current folder is ' + folderName)
-
-# zipfile module can compress and extract filenames
-# Create a ZipFile objects
