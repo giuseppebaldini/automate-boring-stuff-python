@@ -31,3 +31,14 @@ for filename in os.listdir():
 
 # Alternatively, we can use the send2trash module
 import send2trash
+useless_file = open('useless.txt', 'a') # creates the useless file
+baconFile.write('This file is useless. Really.')
+baconFile.close()
+send2trash.send2trash('useless_file.txt')
+
+# os.walk() is useful to walk through a directory tree
+for folderName, subfolders, filenames in os.walk('C:\\example'):
+    print('The current folder is ' + folderName)
+
+# zipfile module can compress and extract filenames
+# Create a ZipFile objects
