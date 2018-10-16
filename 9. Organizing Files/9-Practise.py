@@ -40,4 +40,31 @@ send2trash.send2trash('useless_file.txt')
 for folderName, subfolders, filenames in os.walk('C:\\example'):
     print('The current folder is ' + folderName)
 
-# Compressing files with the zipfile module
+# Working with compressed files using the zipfile module
+# First, we need to pass the .zip file through the ZipFile function
+
+import zipfile, os
+# Move to folder with .zip file
+os.chdir('C:\\')
+exampleZip = zipfile.ZipFile('example.zip')
+# Returns all the files and folders names in example.zip
+exampleZip.namelist()
+# getInfo returns information on a single file
+spamInfo = exampleZip.getinfo('spam.txt')
+spamInfo.file_size
+spamInfo.compress_size
+'Compressed file is %sx smaller!' % (round(spamInfo.file_size / spamInfo.compress_size, 2))
+exampleZip.close()
+
+# Extracting from zip files in the directory of file_all
+file_name.extractall()
+# extract file in a different folder
+file_name.extractall("C:\\another_folder")
+# Extracting a single file
+file_name.extract('spam.txt')
+file_name.extract('spam.txt', 'C:\\yet_another_folder')
+
+# Creating and adding to zip files
+newZip = zipfile.ZipFile('new.zip', 'w')
+# Specify file to be compressed and compression algorithm
+newZip.write('spam.txt', compress_type=zipfile.ZIP_DEFLATED)
