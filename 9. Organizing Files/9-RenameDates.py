@@ -39,4 +39,4 @@ euroFilename = os.path.join(absWorkingDir, euroFilename)
 
 # Rename the files.
 print('Renaming "%s" to "%s"...' % (amerFilename, euroFilename))
-shutil.move(amerFilename, euroFilename)   # uncomment after testing
+shutil.move(amerFilename, euroFilename)
