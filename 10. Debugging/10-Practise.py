@@ -16,12 +16,11 @@ except:
 
 # Assertions
 # Example
-
 podBayDoorStatus = 'open'
 assert podBayDoorStatus == 'open', 'The pod bay doors need to be "open".'
 podBayDoorStatus = 'I\'m sorry, Dave. I\'m afraid I can\'t do that.'
 assert podBayDoorStatus == 'open', 'The pod bay doors need to be "open".'
 
 # Basically, an assert statement says: “I assert that this condition holds true,
-# and if not, there is a bug somewhere in the program.”
+# and if not, there is a bug somewhere in the program.
 # If assert statement fails, program SHOULD CRASH.
