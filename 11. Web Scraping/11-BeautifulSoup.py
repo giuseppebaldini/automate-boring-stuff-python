@@ -1,5 +1,5 @@
 # Beautful Soup is a module used to parse HTML
-# # NOTE: Do NOT use RegEx to parse HTML
+# NOTE: Do NOT use RegEx to parse HTML
 
 import requests, bs4
 
