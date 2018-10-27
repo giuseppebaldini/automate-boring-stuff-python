@@ -23,7 +23,7 @@ pElems[1].getText()
 str(pElems[2])
 pElems[2].getText()
 
-# Example 3: getting data from an elem's attributes
+# Example 3: getting data from an element's attributes
 
 soup = bs4.BeautifulSoup(open('example.html'))
 spanElem = soup.select('span')[0]
