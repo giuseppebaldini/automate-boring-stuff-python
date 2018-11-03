@@ -5,6 +5,10 @@ You can find the original chapters and exercises using the index below.
 
 ## Table Of Contents
 
+* [Appendix A](https://automatetheboringstuff.com/appendixa/) – Installing Third-Party Modules
+* [Appendix B](https://automatetheboringstuff.com/appendixb/) – Running Programs
+* [Appendix C](https://automatetheboringstuff.com/appendixc/) – Answers to the Practice Questions   
+
 * [Chapter 0](https://automatetheboringstuff.com/chapter0/) – Introduction
 * [Chapter 1](https://automatetheboringstuff.com/chapter1/) – Python Basics
 * [Chapter 2](https://automatetheboringstuff.com/chapter2/) – Flow Control
@@ -24,6 +28,3 @@ You can find the original chapters and exercises using the index below.
 * [Chapter 16](https://automatetheboringstuff.com/chapter16/) – Sending Email and Text Messages
 * [Chapter 17](https://automatetheboringstuff.com/chapter17/) – Manipulating Images
 * [Chapter 18](https://automatetheboringstuff.com/chapter18/) – Controlling the Keyboard and Mouse with GUI Automation
-* [Appendix A](https://automatetheboringstuff.com/appendixa/) – Installing Third-Party Modules
-* [Appendix B](https://automatetheboringstuff.com/appendixb/) – Running Programs
-* [Appendix C](https://automatetheboringstuff.com/appendixc/) – Answers to the Practice Questions
